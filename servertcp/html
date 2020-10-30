@@ -1,0 +1,450 @@
+GET / HTTP/1.1
+Host: edu-x03.edu.marconi
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate
+Accept-Language: it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7
+
+HTTP/1.1 200 OK
+Date: Wed, 28 Oct 2020 08:00:10 GMT
+Server: Apache/2.4.10 (Debian)
+Last-Modified: Mon, 25 Sep 2017 15:13:05 GMT
+ETag: "29cd-55a04fed3ef99"
+Accept-Ranges: bytes
+Content-Length: 10701
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Apache2 Debian Default Page: It works</title>
+    <style type="text/css" media="screen">
+  * {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  body, html {
+    padding: 3px 3px 3px 3px;
+
+    background-color: #D8DBE2;
+
+    font-family: Verdana, sans-serif;
+    font-size: 11pt;
+    text-align: center;
+  }
+
+  div.main_page {
+    position: relative;
+    display: table;
+
+    width: 800px;
+
+    margin-bottom: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 0px 0px 0px;
+
+    border-width: 2px;
+    border-color: #212738;
+    border-style: solid;
+
+    background-color: #FFFFFF;
+
+    text-align: center;
+  }
+
+  div.page_header {
+    height: 99px;
+    width: 100%;
+
+    background-color: #F5F6F7;
+  }
+
+  div.page_header span {
+    margin: 15px 0px 0px 50px;
+
+    font-size: 180%;
+    font-weight: bold;
+  }
+
+  div.page_header img {
+    margin: 3px 0px 0px 40px;
+
+    border: 0px 0px 0px;
+  }
+
+  div.table_of_contents {
+    clear: left;
+
+    min-width: 200px;
+
+    margin: 3px 3px 3px 3px;
+
+    background-color: #FFFFFF;
+
+    text-align: left;
+  }
+
+  div.table_of_contents_item {
+    clear: left;
+
+    width: 100%;
+
+    margin: 4px 0px 0px 0px;
+
+    background-color: #FFFFFF;
+
+    color: #000000;
+    text-align: left;
+  }
+
+  div.table_of_contents_item a {
+    margin: 6px 0px 0px 6px;
+  }
+
+  div.content_section {
+    margin: 3px 3px 3px 3px;
+
+    background-color: #FFFFFF;
+
+    text-align: left;
+  }
+
+  div.content_section_text {
+    padding: 4px 8px 4px 8px;
+
+    color: #000000;
+    font-size: 100%;
+  }
+
+  div.content_section_text pre {
+    margin: 8px 0px 8px 0px;
+    padding: 8px 8px 8px 8px;
+
+    border-width: 1px;
+    border-style: dotted;
+    border-color: #000000;
+
+    background-color: #F5F6F7;
+
+    font-style: italic;
+  }
+
+  div.content_section_text p {
+    margin-bottom: 6px;
+  }
+
+  div.content_section_text ul, div.content_section_text li {
+    padding: 4px 8px 4px 16px;
+  }
+
+  div.section_header {
+    padding: 3px 6px 3px 6px;
+
+    background-color: #8E9CB2;
+
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 112%;
+    text-align: center;
+  }
+
+  div.section_header_red {
+    background-color: #CD214F;
+  }
+
+  div.section_header_grey {
+    background-color: #9F9386;
+  }
+
+  .floating_element {
+    position: relative;
+    float: left;
+  }
+
+  div.table_of_contents_item a,
+  div.content_section_text a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  div.table_of_contents_item a:link,
+  div.table_of_contents_item a:visited,
+  div.table_of_contents_item a:active {
+    color: #000000;
+  }
+
+  div.table_of_contents_item a:hover {
+    background-color: #000000;
+
+    color: #FFFFFF;
+  }
+
+  div.content_section_text a:link,
+  div.content_section_text a:visited,
+   div.content_section_text a:active {
+    background-color: #DCDFE6;
+
+    color: #000000;
+  }
+
+  div.content_section_text a:hover {
+    background-color: #000000;
+
+    color: #DCDFE6;
+  }
+
+  div.validator {
+  }
+    </style>
+  </head>
+  <body>
+    <div class="main_page">
+      <div class="page_header floating_element">
+        <img src="/icons/openlogo-75.png" alt="Debian Logo" class="floating_element"/>
+        <span class="floating_element">
+          Apache2 Debian Default Page
+        </span>
+      </div>
+<!--      <div class="table_of_contents floating_element">
+        <div class="section_header section_header_grey">
+          TABLE OF CONTENTS
+        </div>
+        <div class="table_of_contents_item floating_element">
+          <a href="#about">About</a>
+        </div>
+        <div class="table_of_contents_item floating_element">
+          <a href="#changes">Changes</a>
+        </div>
+        <div class="table_of_contents_item floating_element">
+          <a href="#scope">Scope</a>
+        </div>
+        <div class="table_of_contents_item floating_element">
+          <a href="#files">Config files</a>
+        </div>
+      </div>
+-->
+      <div class="content_section floating_element">
+
+
+        <div class="section_header section_header_red">
+          <div id="about"></div>
+          It works!
+        </div>
+        <div class="content_section_text">
+          <p>
+                This is the default welcome page used to test the correct 
+                operation of the Apache2 server after installation on Debian systems.
+                If you can read this page, it means that the Apache HTTP server installed at
+                this site is working properly. You should <b>replace this file</b> (located at
+                <tt>/var/www/html/index.html</tt>) before continuing to operate your HTTP server.
+          </p>
+
+
+          <p>
+                If you are a normal user of this web site and don't know what this page is
+                about, this probably means that the site is currently unavailable due to
+                maintenance.
+                If the problem persists, please contact the site's administrator.
+          </p>
+
+        </div>
+        <div class="section_header">
+          <div id="changes"></div>
+                Configuration Overview
+        </div>
+        <div class="content_section_text">
+          <p>
+                Debian's Apache2 default configuration is different from the
+                upstream default configuration, and split into several files optimized for
+                interaction with Debian tools. The configuration system is
+                <b>fully documented in
+                /usr/share/doc/apache2/README.Debian.gz</b>. Refer to this for the full
+                documentation. Documentation for the web server itself can be
+                found by accessing the <a href="/manual">manual</a> if the <tt>apache2-doc</tt>
+                package was installed on this server.
+
+          </p>
+          <p>
+                The configuration layout for an Apache2 web server installation on Debian systems is as follows:
+          </p>
+          <pre>
+/etc/apache2/
+|-- apache2.conf
+|       `--  ports.conf
+|-- mods-enabled
+|       |-- *.load
+|       `-- *.conf
+|-- conf-enabled
+|       `-- *.conf
+|-- sites-enabled
+|       `-- *.conf
+          </pre>
+          <ul>
+                        <li>
+                           <tt>apache2.conf</tt> is the main configuration
+                           file. It puts the pieces together by including all remaining configuration
+                           files when starting up the web server.
+                        </li>
+
+                        <li>
+                           <tt>ports.conf</tt> is always included from the
+                           main configuration file. It is used to determine the listening ports for
+                           incoming connections, and this file can be customized anytime.
+                        </li>
+
+                        <li>
+                           Configuration files in the <tt>mods-enabled/</tt>,
+                           <tt>conf-enabled/</tt> and <tt>sites-enabled/</tt> directories contain
+                           particular configuration snippets which manage modules, global configuration
+                           fragments, or virtual host configurations, respectively.
+                        </li>
+
+                        <li>
+                           They are activated by symlinking available
+                           configuration files from their respective
+                           *-available/ counterparts. These should be managed
+                           by using our helpers
+                           <tt>
+                                a2enmod,
+                                a2dismod,
+                           </tt>
+                           <tt>
+                                a2ensite,
+                                a2dissite,
+                            </tt>
+                                and
+                           <tt>
+                                a2enconf,
+                                a2disconf
+                           </tt>. See their respective man pages for detailed information.
+                        </li>
+
+                        <li>
+                           The binary is called apache2. Due to the use of
+                           environment variables, in the default configuration, apache2 needs to be
+                           started/stopped with <tt>/etc/init.d/apache2</tt> or <tt>apache2ctl</tt>.
+                           <b>Calling <tt>/usr/bin/apache2</tt> directly will not work</b> with the
+                           default configuration.
+                        </li>
+          </ul>
+        </div>
+
+        <div class="section_header">
+            <div id="docroot"></div>
+                Document Roots
+        </div>
+
+        <div class="content_section_text">
+            <p>
+                By default, Debian does not allow access through the web browser to
+                <em>any</em> file apart of those located in <tt>/var/www</tt>,
+                <a href="http://httpd.apache.org/docs/2.4/mod/mod_userdir.html" rel="nofollow">public_html</a>
+                directories (when enabled) and <tt>/usr/share</tt> (for web
+                applications). If your site is using a web document root
+                located elsewhere (such as in <tt>/srv</tt>) you may need to whitelist your
+                document root directory in <tt>/etc/apache2/apache2.conf</tt>.
+            </p>
+            <p>
+                The default Debian document root is <tt>/var/www/html</tt>. You
+                can make your own virtual hosts under /var/www. This is different
+                to previous releases which provides better security out of the box.
+            </p>
+        </div>
+
+        <div class="section_header">
+          <div id="bugs"></div>
+                Reporting Problems
+        </div>
+        <div class="content_section_text">
+          <p>
+                Please use the <tt>reportbug</tt> tool to report bugs in the
+                Apache2 package with Debian. However, check <a
+                href="http://bugs.debian.org/cgi-bin/pkgreport.cgi?ordering=normal;archive=0;src=apache2;repeatmerged=0"
+                rel="nofollow">existing bug reports</a> before reporting a new bug.
+          </p>
+          <p>
+                Please report bugs specific to modules (such as PHP and others)
+                to respective packages, not to the web server itself.
+          </p>
+        </div>
+
+
+
+
+      </div>
+    </div>
+    <div class="validator">
+    </div>
+  </body>
+</html>
+
+GET /icons/openlogo-75.png HTTP/1.1
+Host: edu-x03.edu.marconi
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://edu-x03.edu.marconi/
+Accept-Encoding: gzip, deflate
+Accept-Language: it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7
+
+HTTP/1.1 200 OK
+Date: Wed, 28 Oct 2020 08:00:10 GMT
+Server: Apache/2.4.10 (Debian)
+Last-Modified: Wed, 28 Aug 2019 13:01:48 GMT
+ETag: "167a-5912cfde84700"
+Accept-Ranges: bytes
+Content-Length: 5754
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: image/png
+
+.PNG
+.
+...
+IHDR...K...c............	pHYs.................tIME......8.
+......IDATx..]y.T..?.................8
+.{p.M.AA@.`D.Q3f.8IL..#........T...
+D.....{/..`#.{...{...j^..@............s...u..@/.3..d^...a!...)..<.H."...w=...<....bk...@..T..O.....U[8}.J.'..y..	..........</"._E..8.........<.........`./.Y.4G.&GM..#..P.D.".]Rl...(.rm`.-.}zw.w........~.D...W.b.9[
+...g....y\....[.......O......l........O...|.)...y..o.X...(Um._..L...}..C.V.H........4.....a..k@._W.>.......3*TS......
+.....F...j2..... J.,..A)
+8....P.xP4...o/.....T.....
+VM..#T".<...u../1.1......%{.7..~.NK.y.+T4u.J.w.RC.0.......j.7...>.*(i..G...\.Q.
+,..oh....g.v5Y.o. ...9(..*..<z ....FE.....B.@!6......	.6U.q......m.M.....6.>..d;.TG......*...`;..d.Y..|.+.=....#.S..e.
+.._...{..!e..$..fU..\..sRN....)......+.V...,"...Xn0.
+H.....kVM...*.|......@..9.u..z,.
+O=...r .9v............U.......>...L.. ..ev[P..=	.......rvGG..9..(eN.9t..1.6....G..q....8?."...[A.gWF.....n............].,....X..A1.j........j.>...
+............9..gh...<....
+...u.4.(X5.).U.|...B.6......H....{..x...../^...}n...Y...8(......=.U.X.J._..hS..,zo+R.......} ..-:.d.o.M.W..Q.|..zM5G.^.=gquh...Vbz.J.....LP	...$R.#A..|Vm....9..#.h..O.2......}..X..|...{..5.9........a..(.S.tbu..'k"....1....?lg.(.7...|e.vd@.fQkl,.....v.M.............9[.
+|.....M9..^?x..b.s......M..t..j.~...9.%'z....n(......,Q.^
+.?....zeYs.B..O........'O............Z(........`W.d...'
+.$.-..%.m._]0...V.(..@mb..	.;.}.W.
+N.J..7..5....~..i...*a>C)...N...{BE...z2).......O....C..O.y+
+.....=Y.	.....a=[.......!..........Dq....k.i.(.r.....S.......n;x...N...~.;....2........l.'/...LC..@..6.z..N.C.......)w.d9%.._.zL..\.pD8l....0v.[..........!I.......&......@.hbe..!...W....(..."@M....A.....P....3D,q..*)U.?`u..U4.\j.!.0,x...d.yg.._.O..3..A/.h...v3.....<..F...=.Y<.........Ld;.Dg....?.a.7?.s.NC.Q.
+d..._...V.5..<.{.,.L%\=....,g' .(u\^i..YGF.^sH...s:l...'.}m.|Y....I)Y....1....lP..y+.R-....q....1W.U..q.....#.......49......x...N..,dz.~.f..3P.;..#..Hm......a......C./x?w.m.
+...L..g.....Hg.o.G."......|..mxd'
+.: .........3EM..	...?^_:.....e..=....@(....n...+....y.....,ls.9G..Y..#................j...D..l.{.y...P.....3+..y.~....	4.~R>....O...cY.o....t.............u.T,.W`........y.#....H..R......x..../....D.OJ....I..z.......T.].pT....G)...r2....S.t3...Cf.)..@.4P..p.[..| ../u.%Z..]...-y:.g.Q...>:_....J~...hJY/..&../k4^......I5D_"...t.p...d..~.....o...A..*p...p.V.......F.g...l.....M.R..L-...r.6z..+..Y..	_P....)i.......c&...dh.*.z.k...m.j...U4..d;3...............m..^C.M..V%.g.Q.. r..c.I...0.......(: .P.'....d.....5R^.....ed;w...}....*v<...
+S..4.....	..f...@P
+..@.O....4..v.|
+...+.=..z...+8e,..3@...B...G..lxl.'0.......k"..T.:.i"..K....b;..U..(....5.....D..{.y...1W..O.........@.W...i...!Xu.T..z.J.GQ..	.*..7q........ ..o2.o$...sl...0P^......R..h...	...Q....V.|G)o.......sK.Lk.x.m.`. Y.......D......M..z....5..P.....................t..%...+.U6/........FIk.w...w..s.........UQ...^..e....B.1H..K.\....^.r..[.nECN.D.....8;..Z?`.!.`.._/...@.j5Y..NklF......`}-...O..,...>.&.W..4.7.S.P.fe...'....LGG...^e^....?.{...X...(.u...h Y...-~_m....`. m...Q.33.N.....y.V.z......(.%..(......@.T|.J.jH.....,............4 *@.6.W[...V./.....T..<.l.EJ]...p..}........V..,:_'.)!...,.*P.B)..9....UsR.`.I."...R.L....>...0][.<..C6...z..z..z..z..z..z..z..E.PH....HD...n.S..twM......tQQQ....H)...Fr...d...0.=z.VUU.6M....rD<YJ.,.....".`.F.=.l5.......3.........k..7lmm.n..|"....D...2ihh..x|.m.#........}.K....f._..S.n{v.f.X..`........@D.D..Q.......d.....!"..	.y|.T_.e(..1H/1!_:.f.W.t]o....G.X......@......E.e..X.;.5...4..C@x....g
+mXd}#......;.
+...0r.'..........e....N2....L..W.U__...;.I"..Y...%.P,...:Cw..].}..Q.FI..;SJ...<#.\..x~.....D..0(G.,5..zM.^.4m..i.....Y......STTD..>..X)..8........s~;u.......g...EEE.>..... .0..4.^..R........z........x<8j.(..D.k............R..B..i...@.....<x03.c.c,..s....@.3....uM..K_...OJ.4.
+....4mL..."6.....u.....1e.F..p8|.....8D\.q.F...$!.{].....o..|c....1..9L...\....:&..1.5M......GB..8.wr....+...1).9...mFP!.j).O..?g.mt.v...a..`..N)...19...x<#..x9........z.........!^....^.1.8f......p..4.ZD$..?9..]s.....;......!......|.PYY.,.....U ..iAc~......}...,.9..
+...m(si...7..z..9......O8.o....|>.h...YZ9'...~..I.....Ve.......0..F). .0".@ ..xB....^...L......x.f.x..K..A.0....?..I)....`08.ujj..1.l.o...8..f.
+.B...j.K.Y...i....~.....=...q.7..1(3>..V .W.C{G.u..1c....\`...G....v.....}...........%R..cl......X2.......5kbYL;%.........d.....la.R..IS....1;k..d2..U).p..q.?.q.~...R.E@..+...o....T.F.
+...r.....N)..6"6d^[V{...R...X.#...TG.....C..)r.'.aj..W9Nv.k.R"r.r.......!^t.....7.p......eh/--......!.............NJ`.v.u.UY..0}.3;.:.v%Q...dPu+M]]].;%H$./..{qJ.R.wIM..5Ms..&.|...j.f...cCo..f.mw...K....x...,.....[#.t.[[[	....L!.....hI&w..mmm9.I..
+....Ju.j..@....t].....
+G...R2.J)w.C	!.M..>....8.c....
+.....|.4...l.....'-7O'.{k.t.J......7R..n'QPP ZZZ..8....B.4M{...a.U..j..J)....:.[SS...*.L^...1...i...4heUUU+....n.....X^..\..u...ks.'.....|o.6R........-...%....~/..q.^2......2...D..R..n...&N.h,]..W...x<.c.XmUU...D.vkd........X...t.32{@*.b..A.......7..!..w.Y.]5..R.]/?b.9;v.@......b..1..`..o.........u..J.W..aE.C..	9.x...~..R....wr.;...H$~x 
+U.q...[.....s.v
+2..!.....n.].."...i.r...].%.x........Yc..@.K.}i.^.r.W..0...;.YA"....1.p.g\z#q............R<[#.(.Z{.1...I[M...8N......(.....].r.E.3|.1.ri...`.4.....C....z.. .P.B.....Op.......rf.....'.I;.....B.Nw.....W...B.co..8..t.b.........]..].n......L&.`.....].......2.p."...B....]..(..w......v.E...i......1K.......0..R...S..m...t...C..t].>S.#b4..T..?.......\~hc...>xb.mc...*..eiV........~...u......@...l....B.......'....t.(..7........u..9......c.}.........9..\2}.._....N@.d...C..(!.m.....VuEE.=^..)Y...1..KAV...t.o
+....R..1.1.E..9..:..#.hhh...[..=!.g.D.].4..x\).V...O...1.&..u].	!v..Z.....?
+.q.T."n.B$u]...a..]..[.9.'........-.a...
+%..8..0.>...R.T.eY_.yS.....[j../...:)e...........'....R.Pn.fH....?.4....*....P.........J........ypI.....IEND.B`.
